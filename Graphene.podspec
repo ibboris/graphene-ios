@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
     s.description  = <<-DESC
                    Graphene is a toolkit to work with Graphene blockchain.
                    DESC
-  s.homepage           = 'https://github.com/gxchain/Graphene'
+  s.homepage           = 'https://github.com/ibboris/graphene-ios'
   s.license            = 'BSD'
   s.authors            = { 'lanhaoxiang' => 'lanhaoxiang@qq.com'}
-  s.source             = { :git => 'https://github.com/gxchain/Graphene.git', :tag => s.version.to_s }
+  s.source             = { :git => 'https://github.com/ibboris/graphene-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
   s.source_files = 'Graphene/**/*.{h,m}'
